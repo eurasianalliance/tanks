@@ -1,0 +1,181 @@
+!SESSION 2014-01-23 19:17:24.443 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-23 19:18:27.009
+!MESSAGE Indexed 'tanks_bsp' (81 sources, 61 headers) in 0.80 sec: 1,594 declarations; 5,650 references; 126 unresolved inclusions; 5 syntax errors; 229 unresolved names (3.06%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-23 19:18:30.192
+!MESSAGE Indexed 'tanks' (1 sources, 13 headers) in 0.01 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2014-01-23 19:21:56.259 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:22:58.542
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-01-23 19:23:03.329
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:23:03.359
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Gingi/Desktop/work/eece381/tanks/software/tanks/tanks.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-01-23 19:23:08.754
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, /cygdrive/c/Users/Gingi/Desktop/work/eece381/tanks/software/tanks/tanks.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-01-23 19:23:08.759
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:25:42.200
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-01-23 19:25:46.845
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:25:46.866
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Gingi/Desktop/work/eece381/tanks/software/tanks/tanks.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:28:29.040
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:28:30.921
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-01-23 19:28:35.947
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:28:35.973
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Gingi/Desktop/work/eece381/tanks/software/tanks/tanks.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:34:09.986
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:34:11.958
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-01-23 19:34:16.746
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:34:16.776
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Gingi/Desktop/work/eece381/tanks/software/tanks/tanks.elf]
+!SESSION 2014-01-23 19:43:53.629 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:44:32.824
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-01-23 19:44:37.551
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:44:37.581
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Gingi/Desktop/work/eece381/tanks/software/tanks/tanks.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:48:01.598
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-01-23 19:48:06.391
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:48:06.411
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Gingi/Desktop/work/eece381/tanks/software/tanks/tanks.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:50:55.147
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:50:57.010
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-01-23 19:51:01.949
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:51:01.971
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Gingi/Desktop/work/eece381/tanks/software/tanks/tanks.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:51:40.935
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:51:42.874
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-01-23 19:51:47.404
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:51:47.431
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Gingi/Desktop/work/eece381/tanks/software/tanks/tanks.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:53:06.186
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:53:08.010
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-01-23 19:53:12.776
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:53:12.790
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Gingi/Desktop/work/eece381/tanks/software/tanks/tanks.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:55:28.609
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:55:30.460
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-01-23 19:55:35.117
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-23 19:55:35.134
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Gingi/Desktop/work/eece381/tanks/software/tanks/tanks.elf]
+!SESSION 2014-01-24 16:58:34.377 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-24 16:59:54.348
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-01-24 16:59:58.806
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-24 16:59:58.838
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Gingi/Desktop/work/eece381/tanks/software/tanks/tanks.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-24 17:02:53.558
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-24 17:02:55.490
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-01-24 17:03:00.387
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-24 17:03:00.420
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Gingi/Desktop/work/eece381/tanks/software/tanks/tanks.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-24 17:04:22.403
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-24 17:04:24.364
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-01-24 17:04:28.928
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-01-24 17:04:28.957
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Gingi/Desktop/work/eece381/tanks/software/tanks/tanks.elf]

@@ -193,27 +193,11 @@
          type = "int";
       }
    }
-   element timer_2.s1
+   element timer_0.s1
    {
       datum baseAddress
       {
-         value = "17472";
-         type = "long";
-      }
-   }
-   element timer_1.s1
-   {
-      datum baseAddress
-      {
-         value = "17440";
-         type = "long";
-      }
-   }
-   element switches.s1
-   {
-      datum baseAddress
-      {
-         value = "17504";
+         value = "17408";
          type = "long";
       }
    }
@@ -225,19 +209,35 @@
          type = "long";
       }
    }
+   element switches.s1
+   {
+      datum baseAddress
+      {
+         value = "17504";
+         type = "long";
+      }
+   }
+   element timer_1.s1
+   {
+      datum baseAddress
+      {
+         value = "17440";
+         type = "long";
+      }
+   }
+   element timer_2.s1
+   {
+      datum baseAddress
+      {
+         value = "17472";
+         type = "long";
+      }
+   }
    element sdram.s1
    {
       datum baseAddress
       {
          value = "16777216";
-         type = "long";
-      }
-   }
-   element timer_0.s1
-   {
-      datum baseAddress
-      {
-         value = "17408";
          type = "long";
       }
    }
@@ -346,7 +346,7 @@
  <parameter name="projectName" value="tanks.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1390533192991" />
+ <parameter name="timeStamp" value="1391126592396" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk" internal="clk_0.clk_in" type="clock" dir="end" />
@@ -635,7 +635,7 @@
    version="12.0"
    enabled="1"
    name="pixel_buffer_dma">
-  <parameter name="addr_mode" value="X-Y" />
+  <parameter name="addr_mode" value="Consecutive" />
   <parameter name="start_address" value="0" />
   <parameter name="back_start_address" value="0" />
   <parameter name="image_width" value="320" />

@@ -1,8 +1,0 @@
-
-**** Build of configuration Nios II for project tanks ****
-
-make all 
-Info: Building ../tanks_bsp/
-make --no-print-directory -C ../tanks_bsp/
-[BSP build complete]
-[tanks build complete]
